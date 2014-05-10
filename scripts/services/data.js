@@ -12,7 +12,7 @@ angular.module('apiTestApp')
 
             // 擬似的に、1秒間ウェイト
             var time = new Date().getTime();
-            while (new Date().getTime() < time + 15000);
+            while (new Date().getTime() < time + 1000);
 
             return data;
           });
